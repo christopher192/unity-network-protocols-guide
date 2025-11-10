@@ -7,7 +7,7 @@ This repository provides guidance and simple code reference for connecting Unity
 | Protocol | Type | Strength | Limitation |
 | ------------- | -------------------- | --------------------------------------------------------------- | --------------------------------------------------------- |
 | **TCP** | Connection-oriented | Reliable delivery, ordered data | Slower than UDP, introduce lag for real-time update |
-| **UDP** | Connectionless | Low-latency update | No delivery guarantee or order, some packet loss possible |
+| **UDP** | Connectionless | Low-latency update | No delivery guarantee or order, possible some packet loss |
 | **WebSocket** | Full-duplex over TCP | Real-time chat, dashboard, collaborative feature | Require a server, built on top of TCP, not suitable for ultra-low-latency task |
 | **WebRTC** | Peer-to-peer | Real-time audio, video, etc | More complicated to setup, require signaling server to exchange connection information before peer can communicate directly |
 | **gRPC** | RPC over HTTP/2 | Structured, type-safe API call, backend service, non-real-time AI inference | Not optimized for ultra-low-latency real-time update |
