@@ -39,7 +39,7 @@ For high-resolution and high-FPS streaming, encoding each frame as a raw JPEG is
 ```csharp
 // the code is inefficient example
 // cpu heavy for high resolution and high fps
-byte[] jpgBytes = captureTexture.EncodeToJPG(jpgQuality);
+byte[] jpgBytes = captureTexture.EncodeToJPG();
 ```
 
 ### GPU Optimization
