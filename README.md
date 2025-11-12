@@ -17,10 +17,10 @@ This repository provides guidance and simple code reference for connecting Unity
 ### FPS (Frame Per Second) Comparision
 Check out the demonstration: [Watch FPS Comparison Video](https://youtube.com/shorts/Mi0yYKSMJUY?si=PKAk2fcQmaBr9Y5a)
 
-In this video, observe how different frame rates (5 FPS vs 30 FPS vs 60 FPS) affect the visual smoothness of streaming. As the FPS increases, motion becomes noticeably smoother, while lower FPS results in choppier motion. 
+In this video, observe how different frame rate (5 FPS vs 30 FPS vs 60 FPS) affect the visual smoothness of streaming. As the FPS increases, motion becomes noticeably smoother, while lower FPS results in choppier motion. 
 
 ### Asynchronous (async/await) vs Synchronous (sync)
-In Unity streaming, asynchronous operation (async/await) are strongly recommended compared to synchronous (blocking) operation.
+In Unity streaming, asynchronous operation (async/await) is strongly recommended compared to synchronous (blocking) operation.
 
 Synchronous (sync)
 - Block the main Unity thread until the operation complete.
