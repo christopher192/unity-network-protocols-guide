@@ -34,7 +34,7 @@ Asynchronous (async/await)
 - Scale easily for multiple connection or task without blocking rendering.
 
 ### Encoding/Decoding Approach
-For high resolution and high FPS streaming, encoding each frame as a raw JPEG is CPU intensive and inefficient. Instead, consider using Unity’s `VideoEncoder` (H.264/H.265) or library like `FFmpeg` to compress the frame then send the compressed video stream over TCP/UDP. This approach reduces CPU load and network bandwidth, while maintaining smoother real-time streaming.
+For high resolution and high FPS streaming, encoding each frame as a raw JPEG is CPU intensive and inefficient. Instead, consider using Unity packages that support `H.264/H.265` or library like `FFmpeg`, `Unity WebRTC`, etc to compress frame before sending them over `TCP/UDP`. This approach reduces CPU load and network bandwidth, while maintaining smoother real time streaming.
 
 ```csharp
 // the code is inefficient example
